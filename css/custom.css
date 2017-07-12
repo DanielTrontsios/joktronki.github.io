@@ -25,11 +25,11 @@ hr.style-four {
   filter: grayscale(0);
 }
 
-.box {
+.portfolio {
   position: relative;
   overflow: hidden;
 }
-.box::before {
+.portfolio::before {
   position: absolute;
   top: 0;
   left: -75%;
@@ -43,7 +43,7 @@ hr.style-four {
   -webkit-transform: skewX(-25deg);
   transform: skewX(-25deg);
 }
-.box:hover::before {
+.portfolio:hover::before {
   -webkit-animation: shine .75s;
   animation: shine .75s;
 }
@@ -57,3 +57,16 @@ hr.style-four {
     left: 125%;
   }
 }
+
+/*
+.portfolio {
+  background: #5091da;
+}
+.portfolio a img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.portfolio:hover a img {
+  opacity: .5;
+}*/
