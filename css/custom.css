@@ -3,6 +3,10 @@ p.social a.gplus, .team-member .social a.gplus {
     background-color: #D5AD42;
 }
 
+.center {
+  text-align: center;
+}
+
 .copyright p.credit a {
     color: rgba(153,153,153, 0.4);
 }
@@ -12,6 +16,10 @@ hr.style-four {
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
     margin-top: -30px;
+}
+
+h2.white {
+    color: #cbd3db;
 }
 
 .image a{
