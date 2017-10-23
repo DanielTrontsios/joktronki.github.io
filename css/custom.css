@@ -11,6 +11,10 @@ p.social a.gplus, .team-member .social a.gplus {
     color: rgba(153,153,153, 0.4);
 }
 
+.intro a:hover, .intro a:focus {
+  bottom: 43px;
+}
+
 hr.style-four {
     height: 12px;
     border: 0;
