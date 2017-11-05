@@ -1,7 +1,7 @@
 <?php
 
-$email_to = "tronki98@yahoo.gr"; // your email address
-$email_subject = "Contact Form Message"; // email subject line
+$email_to = "pylamgr@gmail.com"; // your email address
+$email_subject = "PyLam.gr Contact Form"; // email subject line
 //$thankyou = "thankyou.htm"; // thank you page
 
 // if you update the question on the form -

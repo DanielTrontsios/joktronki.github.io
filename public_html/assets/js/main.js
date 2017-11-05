@@ -40,7 +40,7 @@ function map() {
         styles: styles
     });
 
-    var image = '/assets/plugins/gmaps/images/marker.png';
+    var image = '/public_html/assets/images/marker.png';
 
     map.addMarker({
         lat: 38.912234,
@@ -90,8 +90,9 @@ function utils() {
         var parts = full_url.split("#");
         var trgt = parts[1];
 
-        $('body').scrollTo($('#' + trgt), 800, {offset: -50});
-
+        $(document).ready(function(){
+            $('body').scrollTo($('#' + trgt), 800, {offset: -50});
+        });
     });
 
 }

@@ -142,12 +142,14 @@ figure.effect-winston p span{
   right: 0;
   bottom: 0;
   padding: 0 1.5em 2% 0;
+  opacity: 0;
 }
 
 figure.effect-winston:hover p span {
   width: 100%;
+  position:relative;
+  opacity: 1;
   text-align: right;
-  background-color: rgba(192,192,192,0.6);
 }
 
 figure.effect-winston a {
